@@ -1,0 +1,32 @@
+# Stack build artifacts
+.stack-work/
+dist/
+dist-newstyle/
+
+# Cabal sandbox
+cabal.sandbox.config
+cabal.config
+
+# GHC and Stack logs
+*.hi
+*.o
+*.obj
+*.exe
+*.out
+*.bin
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Vim / Emacs / VSCode temp files
+*.swp
+*~
+*.tmp
+.DS_Store
+
+# Output SVGs
+output/*.svg
+
+# VSCode settings (optional)
+.vscode/
